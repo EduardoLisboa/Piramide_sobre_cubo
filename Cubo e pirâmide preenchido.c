@@ -6,7 +6,7 @@ float rotate_y = 20;
 
 void display()
 {
-    //  Limpa a tela e o Z-Buffer
+    // Limpa a tela e o Z-Buffer
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
     // Reinicia transformações
